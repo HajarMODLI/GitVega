@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Sirius:war">
+    <output-path>$PROJECT_DIR$/Sirius/target</output-path>
+    <root id="archive" name="sirius-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Sirius:war exploded" />
+    </root>
+  </artifact>
+</component>

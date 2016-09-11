@@ -1,0 +1,11 @@
+<div class="container" xmlns:th="http://www.thymeleaf.org" data-ng-controller="product">
+  <span  th:text="#{my.name}"></span>
+
+
+<input type="text" data-ng-model="name"/>
+ <button data-ng-click="update()">click</button>
+<div data-ng-repeat="pr in products" >
+    {{pr}} hy
+</div>
+
+</div>

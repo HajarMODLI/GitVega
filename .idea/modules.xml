@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Polaris/Polaris.iml" filepath="$PROJECT_DIR$/Polaris/Polaris.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProductManagement/ProductManagement.iml" filepath="$PROJECT_DIR$/ProductManagement/ProductManagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProximaCentauri/ProximaCentauri.iml" filepath="$PROJECT_DIR$/ProximaCentauri/ProximaCentauri.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sirius/Sirius.iml" filepath="$PROJECT_DIR$/Sirius/Sirius.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VegaProject.iml" filepath="$PROJECT_DIR$/VegaProject.iml" />
+    </modules>
+  </component>
+</project>

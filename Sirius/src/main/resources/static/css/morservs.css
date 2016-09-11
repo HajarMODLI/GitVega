@@ -1,0 +1,169 @@
+/*
+ * Morservs Background Colors
+ */
+
+.ms-red {
+    background-color: rgba(237,28,36, 1) !important;
+}
+
+.ms-black {
+    background-color: #000 !important;
+}
+
+.ms-brown {
+    background-color: rgba(94,78,67, 1)  !important;
+}
+
+.ms-blue {
+    background-color:  rgba(71,115,149, 1) !important;
+}
+
+
+[data-current-skin="ms-blue"] {
+    background-color: rgba(71,115,149, 1);
+}
+[data-current-skin="ms-blue"] .ss-icon {
+    color: rgba(71,115,149, 1);
+}
+
+
+@media (max-width: 767px) {
+    [data-current-skin="ms-blue"] .ha-menu {
+        background: rgba(71,115,149, 1);
+    }
+}
+
+[data-current-skin="ms-brown"] {
+    background-color: rgba(94,78,67, 1);
+}
+[data-current-skin="ms-brown"] .ss-icon {
+    color: rgba(94,78,67, 1);
+}
+@media (max-width: 767px) {
+    [data-current-skin="ms-brown"] .ha-menu {
+        background: rgba(94,78,67, 1);
+    }
+}
+
+[data-current-skin="ms-red"] {
+    background-color: #ED1C24;
+}
+[data-current-skin="ms-red"] .ss-icon {
+    background-color: #ED1C24;
+}
+@media (max-width: 767px) {
+    [data-current-skin="ms-red"] .ha-menu {
+        background-color: #ED1C24;
+    }
+}
+
+
+
+
+[data-current-skin="ms-black"] {
+    background-color: #000000;
+}
+[data-current-skin="ms-black"] .ss-icon {
+    background-color: #000000;
+}
+@media (max-width: 767px) {
+    [data-current-skin="ms-black"] .ha-menu {
+        background-color: #000000;
+    }
+}
+
+[data-current-skin="ms-black-tr"] {
+    background-color: rgba(0, 0, 0, 0.81);
+}
+[data-current-skin="ms-black-tr"] .ss-icon {
+    background-color: rgba(0, 0, 0, 0.81);
+}
+@media (max-width: 767px) {
+    [data-current-skin="ms-black-tr"] .ha-menu {
+        background-color: rgba(0, 0, 0, 0.81);
+    }
+}
+
+
+
+/*
+ * Flat Button
+ */
+
+
+.btn-link-blue {
+    color: #477395 ;
+    font-weight: bold;
+}
+.btn-link-blue:focus {
+    color: #385778;
+}
+.btn-link-blue:hover{
+    color: #385778;
+}
+
+/*
+ * Float Size Button
+ */
+
+.btn-float-lg{
+    width: 55.5px;
+    height: 55.5px;
+}
+.btn-float-lg .zmdi{
+    line-height: normal;
+    font-size:23px;
+}
+
+
+
+
+
+.ms-logo-header{
+    height: 21px;
+    width: 7%;
+}
+
+/*
+*Apps DropDown
+*/
+
+
+.apps-grid-scroll {
+    overflow: scroll ;
+    height:396px;
+}
+.dropdown-menu .listview .pl-body .col-xs-4 >a {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+
+.dropdown-menu .listview .pl-body .col-xs-4 >a:hover {
+    border: 1px solid #e5e5e5;
+    background-color: rgba(0, 0, 0, 0); !important;
+
+}
+
+.dropdown-menu .listview .pl-body .col-xs-4 >a:before {
+    background-color: rgba(0, 0, 0, 0)!important;
+
+}
+.dropdown-menu .listview  .pl-body .col-xs-4 >a>img{
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    left: 25%;
+    top:20%
+
+}
+.dropdown-menu .listview  .pl-body .col-xs-4 >a>span{
+    position: absolute;
+    top: 70%;
+    text-overflow: ellipsis;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    color: #404040;
+}
